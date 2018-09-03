@@ -94,5 +94,98 @@ ul {
 
 .section-about .li-social-links a {
     border: 1px solid #757575;
+}
 
+.section .header-section {
+    text-align: center;
+}
+
+.section h2, .section-about .download-resume {
+    font-family: 'Oswald', sans-serif;
+}
+.section .h2-section {
+    margin-bottom: 56px;
+    color: #0487cc;
+}
+
+.section-education {
+    margin-bottom: 45px;    
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+
+.section-education .education-content {
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.section-education h3::before {
+    border-top-color: #035c8a;
+    border-right-color: #035c8a;
+}
+.section-education .education-content{
+    background-color: #ffffff;
+}
+
+.section-education h3::before {
+    content: '';
+    position: absolute;
+    top: 52px;
+    left: 0px;
+    border-width: 5px 7px;
+    border-style: solid;
+    border-color: transparent;
+    transition: all .6s;
+}
+.section-education h3{
+    background-color: #0487cc;
+    margin-bottom: 18px;
+    display: inline-block;
+    padding: 15px 45px;
+    min-height: 50px;
+    position: relative;
+    left: -45px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+}
+.section-education .ul-education {
+    margin-bottom: 12px;
+}
+
+.section-education .li-specialty {
+    margin-bottom: 5px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.section-education .education-icon {
+    display: inline-block;
+    width: 23px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-file-text:before {
+    content: "\f15c";
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.section-education h3{
+    color: #ffffff;
+}
+
+.h3, h3 {
+    font-size: 1rem;
+}
+
+.section-education .ul-education{
+    color: #757575;
 }
