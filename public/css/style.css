@@ -118,10 +118,6 @@ ul {
     margin-bottom: 30px;
     padding: 30px;
 }
-.section-education h3::before {
-    border-top-color: #035c8a;
-    border-right-color: #035c8a;
-}
 .section-education .education-content{
     background-color: #ffffff;
 }
@@ -135,6 +131,8 @@ ul {
     border-style: solid;
     border-color: transparent;
     transition: all .6s;
+    border-top-color: #035c8a;
+    border-right-color: #035c8a;
 }
 .section-education h3{
     background-color: #0487cc;
@@ -188,4 +186,23 @@ ul{
 
 .section-education .ul-education{
     color: #757575;
+}
+.btn-buy-now {
+    background: #0487cc;
+    border: 1px solid #0487cc;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-left: 35%;
+    float: left;
+}
+
+.btn-buy-now:hover{
+    cursor: pointer;
+}
+
+.demoImage{
+    width:100%;
+    height: 139px;
+    margin-bottom: 30px;
 }

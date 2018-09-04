@@ -10,7 +10,9 @@ app.get('/',(req,res) =>{
 	res.render("trangchu.ejs");
 })
 
-
+app.get('/cv',(req,res) =>{
+	res.send("It will available when i ready to take a job :D");
+})
 
 app.listen(PORT, err => {
 	if (err) throw err;
