@@ -109,7 +109,7 @@ ul {
 }
 
 .section-education {
-    margin-bottom: 45px;    
+    margin-bottom: 45px;
     visibility: visible;
     animation-name: fadeInUp;
 }
@@ -230,7 +230,7 @@ ul{
     z-index: 10000;
     background-color: transparent;
   }
-  
+
   .rippleCircle {
     border-radius: 50%;
     position: absolute;
@@ -242,8 +242,14 @@ ul{
     -webkit-animation: 600ms linear ripple;
     background-color: rgba(245, 245, 245, .8);
   }
-  
+  .main{
+    height:490px;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    min-width: 100%:
+}
   @keyframes ripple {
     to {transform: scale(2.2); opacity: 0;}
   }
-  
