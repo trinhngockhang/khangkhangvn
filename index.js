@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var path = require("path");
 app.set("view engine","ejs");
 app.set("vỉews","./views");
 app.use(express.static(__dirname + '/public'));
@@ -11,7 +12,8 @@ app.get('/',(req,res) =>{
 })
 
 app.get('/cv',(req,res) =>{
-	res.send("It will available when i ready to take a job :D");
+	//res.sendFile(path.join(__dirname, '../public', 'CV_TrinhKhang.pdf'));
+	res.sendFile(`${__dirname}/public/CV_TrinhKhang.pdf`);
 })
 
 app.listen(PORT, err => {
