@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded',function(){
         circle.style.left = e.offsetX - d/2 + 'px';
         this.appendChild(circle);
       }
-    
+
       for(let i = 0; i < button.length; i++) {
         let mask = document.createElement('div');
         mask.classList.add('rippleMask');
@@ -27,3 +27,26 @@ document.addEventListener('DOMContentLoaded',function(){
         });
       }
     }, false);
+
+
+  $(document).ready(function() {
+  $('#exampleModalCenter1').on('hidden.bs.modal', function() {
+    var $this = $(this).find('iframe'),
+      tempSrc = $this.attr('src');
+    $this.attr('src', "");
+    $this.attr('src', tempSrc);
+  });
+  $('#exampleModalCenter3').on('hidden.bs.modal', function() {
+    var $this = $(this).find('iframe'),
+      tempSrc = $this.attr('src');
+    $this.attr('src', "");
+    $this.attr('src', tempSrc);
+  });
+  $('#exampleModalCenter5').on('hidden.bs.modal', function() {
+    var $this = $(this).find('iframe'),
+      tempSrc = $this.attr('src');
+    $this.attr('src', "");
+    $this.attr('src', tempSrc);
+  });
+
+});

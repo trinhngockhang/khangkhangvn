@@ -159,6 +159,9 @@ li {
     display: inline-block;
     width: 23px;
 }
+.modal-open {
+    padding-right: 0px !important;
+}
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -188,7 +191,7 @@ ul{
     margin-bottom: 30px;
 }
 
-.d-block{
+.block-sort{
     height: 225px;
 }
 
@@ -249,6 +252,7 @@ ul{
     height: 100%;
     width: 100%;
     min-width: 100%:
+
 }
   @keyframes ripple {
     to {transform: scale(2.2); opacity: 0;}
