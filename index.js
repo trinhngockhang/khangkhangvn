@@ -4,7 +4,7 @@ var path = require("path");
 app.set("view engine","ejs");
 app.set("vỉews","./views");
 app.use(express.static(__dirname + '/public'));
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 1200;
 
 
 app.get('/',(req,res) =>{
